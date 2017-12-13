@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:background="@color/mine_title">
+
+        <RadioButton
+            android:id="@+id/information"
+            android:checked="true"
+           style="@style/Information_Radio"
+            android:text="资讯" />
+
+        <RadioButton
+            android:id="@+id/topic"
+            style="@style/Information_Radio"
+            android:text="专题" 
+            />
+
+        <RadioButton
+            android:id="@+id/generalize"
+           style="@style/Information_Radio"
+            android:text="推荐" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

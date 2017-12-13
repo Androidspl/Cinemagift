@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="10dp"
+        android:text="我的印象"
+        android:textColor="@color/mine_text_0d"
+        android:textSize="@dimen/text_12" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/mine_line_ccc" />
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv1"
+        android:layout_marginLeft="12dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/emoji1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="13dp"
+            android:background="@drawable/selector_emoji"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/emoji2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="13dp"
+            android:background="@drawable/selector_emoji"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/emoji3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="13dp"
+            android:background="@drawable/selector_emoji"
+            android:button="@null" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rGroup"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/selector_input_hbg"
+        android:gravity="left"
+        android:hint="评价内容限制120字"
+        android:maxLength="11"
+        android:padding="10dp"
+        android:textColor="@color/mine_text_0d"
+        android:textSize="@dimen/text_12" />
+
+    <Button
+        android:id="@+id/publish_evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mine_line_f0"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="发表评价"
+        android:textColor="@drawable/commit_text_color"
+        android:textSize="@dimen/text_16" />
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background" >
+
+    <ImageView
+        android:id="@+id/goods_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/mengdian1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="18dp"
+        android:layout_toRightOf="@+id/goods_logo"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/goods_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="大圣礼品"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_14" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" >
+
+            <TextView
+                android:id="@+id/goods_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="¥210"
+                android:textColor="@color/mine_banner_point_s"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:id="@+id/goods_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="龙猫 x1"
+                android:textColor="@color/mine_text_bc"
+                android:textSize="@dimen/text_14" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/goods_logo"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/mine_line_ccc" />
+
+    <TextView
+        android:id="@+id/bottom1"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/goods_logo"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/bottom2"
+        android:background="@drawable/selector_fl_tv_bg"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/bottom2"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/goods_logo"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/selector_fl_tv_bg"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/bottom3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/bottom2"
+        android:background="@color/mine_line_ccc" />
+
+    <ImageView
+        android:id="@+id/bottom4"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/bottom3"
+        android:background="@color/mine_line_f0" />
+
+    <ImageView
+        android:id="@+id/bottom5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/bottom4"
+        android:background="@color/mine_line_ccc" />
+
+</RelativeLayout>

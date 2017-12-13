@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+         android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mine_line_ccc" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:text="收货人姓名"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <EditText
+            android:id="@+id/et_receive_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/selector_input_bg"
+            android:hint="请输入"
+            android:textColor="@color/mine_text_0d"
+            android:padding="10dp"
+            android:textSize="@dimen/text_12" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:text="收货人地址"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <EditText
+            android:id="@+id/et_receive_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/selector_input_hbg"
+            android:hint="请输入"
+            android:padding="10dp"
+            android:gravity="left"
+             android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:text="手机号码"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <EditText
+            android:id="@+id/et_receive_phoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/selector_input_bg"
+            android:hint="请输入"
+            android:maxLength="11"
+            android:padding="10dp"
+             android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <RelativeLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginTop="18dp"
+                android:text="设为默认地址"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <ImageView
+                android:id="@+id/set_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/acquiesce_off" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/commit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="提交"
+        android:enabled="false"
+        android:background="@color/mine_line_f0"
+        android:textSize="@dimen/text_14"
+        android:textColor="@drawable/commit_text_color" />
+
+</RelativeLayout>

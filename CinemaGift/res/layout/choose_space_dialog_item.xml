@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:drawablePadding="10dp"
+    android:drawableRight="@drawable/huisejiantou"
+    android:gravity="center_vertical|left"
+    android:orientation="vertical"
+    android:textColor="@color/service_incident_text"
+    android:textSize="18sp" />

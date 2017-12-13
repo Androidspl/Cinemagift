@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/title"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/search"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_search" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edi_searh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/search_back"
+            android:hint="请输入感兴趣的内容"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/search_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="商品"
+            android:textSize="18sp"
+            android:textColor="@color/store_imgae_text" />
+
+        <RadioButton
+            android:id="@+id/topic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/search_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="众筹"
+            android:textSize="18sp"
+            android:textColor="@color/store_imgae_text" />
+
+        <RadioButton
+            android:id="@+id/generalize"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/search_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="资讯"
+            android:textSize="18sp"
+            android:textColor="@color/store_imgae_text" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

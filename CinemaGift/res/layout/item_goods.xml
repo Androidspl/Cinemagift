@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mine_line_f0"
+    android:paddingBottom="18dp"
+    android:paddingLeft="18dp"
+    android:paddingTop="18dp"
+    android:paddingRight="18dp" >
+
+    <ImageView
+        android:id="@+id/goods_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mengdian1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/goods_logo"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/goods_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="超萌大白公仔"
+            android:textSize="@dimen/text_14"
+            android:textColor="@color/mine_text_0d"
+            />
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" >
+
+            <TextView
+                android:id="@+id/goods_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="¥210"
+                android:textColor="@color/mine_banner_point_s"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:id="@+id/goods_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="龙猫 x1"
+                android:textColor="@color/mine_text_bc"
+                android:textSize="@dimen/text_14" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

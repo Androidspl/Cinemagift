@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_lv_adapter"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_goods"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="14dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="美国留学"
+        android:background="@null"
+    	android:button="@null"
+        android:textColor="@color/pull_down"
+        android:textSize="@dimen/text_12" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pull_down_divide" />
+
+</LinearLayout>

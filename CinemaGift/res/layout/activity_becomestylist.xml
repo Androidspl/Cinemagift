@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white_background" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/mine_line_ccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="真实姓名："
+                    android:textColor="@color/mine_text_0d"
+                    android:textSize="@dimen/text_12" />
+
+                <EditText
+                    android:id="@+id/real_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/selector_input_bg"
+                    android:hint="限制15字"
+                    android:maxLength="15"
+                    android:padding="10dp"
+                    android:textColor="@color/mine_text_0d"
+                    android:textSize="@dimen/text_12" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/mine_line_ccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="手机号码："
+                    android:textColor="@color/mine_text_0d"
+                    android:textSize="@dimen/text_12" />
+
+                <EditText
+                    android:id="@+id/real_phoneNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/selector_input_bg"
+                    android:hint="18600000000"
+                    android:maxLength="11"
+                    android:padding="10dp"
+                    android:textColor="@color/mine_text_0d"
+                    android:textSize="@dimen/text_12" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/mine_line_ccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="电子邮箱："
+                    android:textColor="@color/mine_text_0d"
+                    android:textSize="@dimen/text_12" />
+
+                <EditText
+                    android:id="@+id/real_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/selector_input_bg"
+                    android:hint="fadfasd"
+                    android:padding="10dp"
+                    android:textColor="@color/mine_text_0d"
+                    android:textSize="@dimen/text_12" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/mine_line_ccc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="12dp"
+                android:text="设计方向："
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/painting"
+                    style="@style/SetDefaultCheckboxTheme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/mine_hafe_black"
+                    android:textSize="@dimen/text_12" />
+
+                <CheckBox
+                    android:id="@+id/craft"
+                    style="@style/SetDefaultCheckboxTheme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/mine_hafe_black"
+                    android:textSize="@dimen/text_12" />
+
+                <CheckBox
+                    android:id="@+id/flat"
+                    style="@style/SetDefaultCheckboxTheme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/mine_hafe_black"
+                    android:textSize="@dimen/text_12" />
+
+                <CheckBox
+                    android:id="@+id/model"
+                    style="@style/SetDefaultCheckboxTheme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/mine_hafe_black"
+                    android:textSize="@dimen/text_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:weightSum="4" >
+
+                <CheckBox
+                    android:id="@+id/colleagues"
+                    style="@style/SetDefaultCheckboxTheme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/mine_hafe_black"
+                    android:textSize="@dimen/text_12" />
+
+                <CheckBox
+                    android:id="@+id/others"
+                    style="@style/SetDefaultCheckboxTheme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/mine_hafe_black"
+                    android:textSize="@dimen/text_12" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/mine_line_ccc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="12dp"
+                android:text="描述："
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <EditText
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector_input_hbg"
+                android:hint="限制30字"
+                android:gravity="left"
+                android:maxLength="15"
+                android:padding="10dp"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/mine_line_ccc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="12dp"
+                android:text="其他联系方式："
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <EditText
+                android:id="@+id/qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/selector_input_bg"
+                android:hint="qq号"
+                android:maxLength="15"
+                android:padding="10dp"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <EditText
+                android:id="@+id/wx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/selector_input_bg"
+                android:hint="微信号"
+                android:maxLength="15"
+                android:padding="10dp"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <EditText
+                android:id="@+id/wb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/selector_input_bg"
+                android:hint="微博名称"
+                android:maxLength="15"
+                android:padding="10dp"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_12" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/mine_line_ccc" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/next_bg_n"
+                android:gravity="center"
+                android:text="下一页"
+                android:enabled="false"
+                android:textColor="@drawable/commit_text_color"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:text="@string/remarks" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#fff"
+        android:padding="5dp"
+        android:text="@string/remark"
+        android:textColor="@color/mine_text_0d"
+        android:textSize="@dimen/text_12" />
+
+</FrameLayout>

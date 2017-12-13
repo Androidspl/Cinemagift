@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_bar">#CBCED2</color>
+    <color name="white_background">#FFFAFAFA</color>
+    <color name="grey_background">#FFF1EDEA</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_hint">#FF999999</color>
+    <color name="service_incident_text">#FF333333</color>
+    <color name="text_grey">#FF666666</color>
+    <color name="login">#009DDA</color>
+    <color name="choose_pic_bule_overlay">#660D92DD</color>
+    <color name="choose_pic_none_color">#00000000</color>
+    <color name="help_bule">#500f</color>
+    <color name="hint">#8000</color>
+    <color name="title">#1a1a1a</color>
+    <color name="page_backgroup">#f2f2f2</color>
+    <color name="text_green">#FF00B4A2</color>
+    <!-- 灰色 -->
+    <color name="grey_color1">#333333</color>
+    <color name="grey_color2">#666666</color>
+    <color name="grey_color3">#999999</color>
+    <!-- 商城 -->
+    <color name="store_classify">#9c9c9c</color>
+    <color name="bg_grey1">#f5f5f5</color>
+    <color name="store_imgae_text">#0d0d0d</color>
+    <color name="store_price_text">#363636</color>
+    <color name="store_divide_line">#dfdfdf</color>
+    <color name="pull_down">#000000</color>
+    <color name="pull_down_divide">#cccccc</color>
+    <!-- 标题 -->
+    <color name="title_bg">#1e1e1e</color>
+    <color name="title_text">#b3b3b3</color>
+
+    <!-- 友盟分享 -->
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+
+    <!-- 我的页面 -->
+    <color name="mine_name_white">#ffffff</color>
+    <color name="mine_text_999">#999999</color>
+    <color name="mine_text_b3">#b3b3b3</color>
+    <color name="mine_banner_point_n">#aaffffff</color>
+    <color name="mine_hafe_black">#666666</color>
+    <color name="mine_hafe_black1">#6a6a6a</color>
+    <color name="mine_item_bg">#f2f2f2</color>
+    <color name="mine_line_gray">#d1d1d1</color>
+    <color name="mine_hafe_black2">#828282</color>
+    <color name="mine_banner_point_s">#fbaf0a</color>
+    <color name="mine_text_gray">#a3a3a3</color>
+    <color name="mine_title">#1e1e1e</color>
+    <color name="mine_main_radiobutton_bg">#f9f9f9</color>
+    <color name="mine_line_b2">#b2b2b2</color>
+    <color name="mine_text_info_36">#363636</color>
+    <color name="mine_text_info_2ba0f8">#2ba0f8</color>
+    <color name="mine_text_info_d7d5d5">#d7d5d5</color>
+    <color name="mine_bg_000">#000000</color>
+    <color name="mine_line_ccc">#cccccc</color>
+    <color name="mine_line_f0">#f0f0f0</color>
+    <color name="mine_text_0d">#0d0d0d</color>
+    <color name="mine_text_bc">#bcbcbc</color>
+    <color name="mine_line_333">#333333</color>
+
+</resources>

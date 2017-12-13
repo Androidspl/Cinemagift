@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:paddingTop="10dp"
+    android:scrollbars="none"
+    android:background="@color/white_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:text="作品标题："
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <EditText
+            android:id="@+id/opus_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/selector_input_bg"
+            android:hint="限制7个字"
+            android:maxLength="7"
+            android:padding="10dp"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:text="作品描述："
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <EditText
+            android:id="@+id/opus_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/selector_input_hbg"
+            android:hint="请输入"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:text="作品照片："
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <com.skyfilm.owner.widget.FullHeightGridView
+            android:id="@+id/opus_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:gravity="center"
+            android:horizontalSpacing="18dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="18dp" >
+        </com.skyfilm.owner.widget.FullHeightGridView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <RelativeLayout
+            android:id="@+id/choose_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="18dp"
+                android:paddingTop="18dp"
+                android:text="选择影片主题"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_14" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_goto" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <RelativeLayout
+            android:id="@+id/choose_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="18dp"
+                android:paddingTop="18dp"
+                android:text="选择产品类型"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_14" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_goto" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <RelativeLayout
+            android:id="@+id/chooose_copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="18dp"
+                android:paddingTop="18dp"
+                android:text="版权"
+                android:textColor="@color/mine_text_0d"
+                android:textSize="@dimen/text_14" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_goto" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/mine_line_ccc" />
+    </LinearLayout>
+
+</ScrollView>

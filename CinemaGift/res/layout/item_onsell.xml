@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/goods_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/mengdian1"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/goods_logo"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/goods_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大圣玩偶" />
+            <TextView 
+                android:id="@+id/loveNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="954人喜欢"
+               android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+        <TextView 
+            android:padding="5dp"
+            android:id="@+id/goods_money"
+          android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="￥453" 
+            />
+        <LinearLayout 
+            android:padding="5dp"
+            android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 
+            >
+            <TextView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="销量:" 
+                />
+            <TextView
+                android:id="@+id/sellNum" 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="546件" 
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+         <LinearLayout 
+            android:padding="5dp"
+            android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 
+            >
+            <TextView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="上架时间:" 
+                />
+            <TextView
+                android:id="@+id/date" 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="2016年6月28日" 
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

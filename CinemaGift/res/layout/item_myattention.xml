@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/stylist_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:src="@drawable/mengdian1" />
+
+    <TextView
+        android:id="@+id/stylist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/stylist_icon"
+        android:padding="5dp"
+        android:text="点子" />
+
+    <com.skyfilm.owner.widget.FullHeightGridView
+        android:id="@+id/stylist_label"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stylist_name"
+        android:layout_toRightOf="@+id/stylist_icon"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp" >
+    </com.skyfilm.owner.widget.FullHeightGridView>
+
+    <TextView
+        android:id="@+id/cancel_attention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="取消关注" />
+
+    <TextView
+        android:id="@+id/fans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cancel_attention"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="粉丝  200" />
+
+</RelativeLayout>

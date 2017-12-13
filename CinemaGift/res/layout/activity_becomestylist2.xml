@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:paddingTop="10dp"
+   android:paddingLeft="12dp"
+   android:paddingRight="12dp"
+    android:scrollbars="none"
+    android:background="@color/white_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_background"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mine_line_ccc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="12dp"
+            android:text="请提交您的设计作品"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <com.skyfilm.owner.widget.FullHeightGridView
+            android:id="@+id/myproduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:gravity="center"
+            android:horizontalSpacing="18dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="18dp" >
+        </com.skyfilm.owner.widget.FullHeightGridView>
+
+        <EditText
+            android:id="@+id/production_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_input_hbg"
+            android:hint="提交解释作品"
+            android:gravity="left"
+            android:maxLength="11"
+            android:padding="10dp"
+            android:textColor="@color/mine_text_0d"
+            android:textSize="@dimen/text_12" />
+
+        <CheckBox
+            android:id="@+id/agreement"
+            style="@style/CustomCheckboxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:paddingLeft="10dp"
+            android:text="设计师协议"
+            android:textColor="@color/mine_text_999"
+            android:textSize="@dimen/text_12" />
+
+        <Button
+            android:id="@+id/commit"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/next_bg_n"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="提交"
+            android:layout_marginBottom="44dp"
+            android:textColor="@drawable/commit_text_color"
+            android:textSize="@dimen/text_14" />
+    </LinearLayout>
+
+</ScrollView>

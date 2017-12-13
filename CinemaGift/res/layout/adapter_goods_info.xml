@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/first_mark_goods_image"
+        android:layout_width="@dimen/store_image_width"
+        android:layout_height="@dimen/store_image_height"
+        android:layout_gravity="center"
+        android:src="@drawable/psb"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/first_mark_goods_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/store_image_text"
+        android:gravity="center_horizontal"
+        android:lines="2"
+        android:textColor="@color/store_imgae_text"
+        android:text="大圣归来"
+        android:textSize="@dimen/text_12" />
+
+    <TextView
+        android:id="@+id/first_mark_goods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/store_clssify_top"
+        android:singleLine="true"
+        android:text="￥ 200"
+        android:textColor="@color/store_price_text"
+        android:textSize="@dimen/text_15" />
+
+</LinearLayout>
